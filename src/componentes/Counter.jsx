@@ -12,9 +12,9 @@ export default function Counter ({onAddToCart}) {
 
     function Add() {
 
-        //if (count<5){
+        
             setCount(count + 1)
-        //}
+        
         
     }
 

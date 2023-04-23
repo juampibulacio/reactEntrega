@@ -6,7 +6,7 @@ const cartContext = createContext ({cart: []});
   function CartProvider(props) {
     const [cart, setCart] = useState([]);
     const newCart = JSON.parse(JSON.stringify(cart));
-    /* const newCart = [...cart] */
+    
 
 
     function addItem (product, countFromCounter) {
@@ -41,13 +41,7 @@ const cartContext = createContext ({cart: []});
        return total.toFixed(2);
    }
    
-  /*  function clearCart() {
-    setCart([])
-   } */
-   
-  
  
-   /* cart widget: */
    function calcularTotal() {
         let total = 0
         cart.forEach(item => total += item.count)

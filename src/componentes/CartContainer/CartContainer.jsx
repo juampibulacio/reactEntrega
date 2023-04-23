@@ -30,7 +30,7 @@ async function handleCheckout(userData) {
       });
    
 
-    //clearCart()
+    //Limpiar carrito:
     setInterval("location.reload()",500);
     
 } 

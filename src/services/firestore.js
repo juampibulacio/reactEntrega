@@ -24,9 +24,7 @@ export async function getItems () {
 
    const docsData = documents.map((doc) => {
    return {id: doc.id, ...doc.data()}
-   /* const data = doc.data();
-   data.id = doc.id;
-   return data */
+  
    }
    );
    return docsData;
