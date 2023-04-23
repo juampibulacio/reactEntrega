@@ -30,7 +30,7 @@ _Es necesario contar con Git y Node.js_
 
 ## Despliegue 📦
 
-_Es posible acceder a la aplicación a través del siguiente enlace
+_Es posible acceder a la aplicación a través del siguiente enlace_
 
 [Vercel Deploy](https://react-entrega.vercel.app/)
 
