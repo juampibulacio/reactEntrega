@@ -7,13 +7,14 @@ import { Link } from "react-router-dom";
 import FormCheckout from "./FormCheckout";
 
 
+
 function CartContainer() {
     const context = useContext(cartContext)
     const {cart, getTotalPrice, removeItem} = context;
 
 
-
 async function handleCheckout(userData) {
+
     const order = {
         items: cart,
         buyer: userData,
@@ -53,16 +54,15 @@ async function handleCheckout(userData) {
     {
         cart.map( (item) => 
         <div key={item.id}>
-         <h1> {item.title} </h1>
+         <h2> {item.title} </h2>
          <p>cantidad: {item.count} </p>
          <p>precio: ${((item.price)*(item.count)).toFixed(2)} </p>
          <button onClick={()=> removeItem(item.id)}> remover </button>
-         {/* <button onClick={removeSingleItem}> remover uno</button> */}
          </div>
          ) 
      }
      <br />
- <span>El total de tu compra es de: ${getTotalPrice()} </span>
+ <span><h3>El total de tu compra es de: ${getTotalPrice()} </h3></span>
  <br />
  <br />
  <FormCheckout onCheckout={handleCheckout} />
