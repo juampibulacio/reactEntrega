@@ -2,6 +2,7 @@
 function ItemDetail ({product}) {
     return (
         <div>
+            <br />
         <img src={product.img}></img>
         <h1>{product.title}</h1>
         <h3>{product.category}</h3>

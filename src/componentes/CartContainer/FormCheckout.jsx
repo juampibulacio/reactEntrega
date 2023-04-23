@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import "./formCheckout.css";
 
 export default function FormCheckout({ onCheckout }) {
   const [userData, setUserData] = useState({

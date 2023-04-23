@@ -1,8 +1,9 @@
 *{transition:all 0.3s ease-in-out;}
 
-.container{
+.navContainer{
   clear:both;
   overflow:auto;
+  background-color: rgb(227, 188, 116);
 }
 
 nav{float:right;}

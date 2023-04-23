@@ -13,6 +13,8 @@ function ItemList ({products}) {
             price={producto.price}
             category={producto.category}
             img={producto.img}
+            offer={producto.offer}
+            stock={producto.stock}
                 />))
             }
                 </Flex>

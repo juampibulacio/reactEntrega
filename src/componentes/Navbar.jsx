@@ -8,7 +8,7 @@ function Navbar () {
  
 
 return (
-    <div className="container">
+    <div className="navContainer">
 <div className="logo">
   <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2IUmlY8D28JgP1l0oKZ-oBvgY-eh1iv7HJg&usqp=CAU" alt="" width="130"/>
   </div>

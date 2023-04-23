@@ -55,6 +55,7 @@ a{
   .item-card_detail{
     height: 140px;
     padding: 12px 8px;
+    background-color: #ffffff5d;
   }
   
   .item-card:hover .item-card_favicon{
